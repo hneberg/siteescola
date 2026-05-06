@@ -3,15 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Escola Estadual - Orgulho do Paraná</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
 
+    <header>
+        <div class="header-top">
+            <div class="logo-placeholder">🌳</div>
+            <h1>Escola Estadual</h1>
+            <div class="flag-placeholder">🇧🇷</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Atividades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero">
+            <h2>Bem-vindos à Nossa Escola</h2>
+            <div class="landscape-draw">🌲 🏫 🌲</div>
+        </section>
 
+        <section class="content-grid">
+            <article class="card">
+                <h3>Notícias</h3>
+                <div class="image-box">📰</div>
+                <p>Confira as últimas novidades da nossa unidade escolar.</p>
+            </article>
 
+            <article class="card">
+                <h3>Eventos</h3>
+                <div class="image-box">📅</div>
+                <p>Fique por dentro do nosso calendário acadêmico.</p>
+            </article>
+        </section>
 
+        <section class="info-footer">
+            <div class="contact-info">
+                <h4>Últimas Novidades</h4>
+                <p>Contatos: (41) 0000-0000</p>
+                <p>📧 escola@email.com</p>
+            </div>
+            
+            <div class="owl-section">
+                <div class="owl-icon">🦉</div>
+                <p><strong>Educação Paraná</strong></p>
+            </div>
+
+            <div class="social-links">
+                <p>📞 0800 000 9393</p>
+                <p>🌐 www.educacao.pr.gov.br</p>
+                <p>📸 @copaeducacaopr</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>✨ Orgulho do Paraná! ✨</p>
+    </footer>
 
 </body>
 </html>
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #004a8d; /* Azul clássico escolar */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner Principal */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+}
+
+.landscape-draw {
+    font-size: 50px;
+    margin-top: 20px;
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 20px;
+}
+
+/* Grade de Conteúdo (Notícias e Eventos) */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.image-box {
+    font-size: 40px;
+    margin: 15px 0;
+    background: #eee;
+    padding: 20px;
+}
+
+/* Seção Inferior e Rodapé */
+.info-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #e9ecef;
+    padding: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.owl-section {
+    text-align: center;
+}
+
+.owl-icon {
+    font-size: 60px;
+}
+
+.social-links p, .contact-info p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #004a8d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+    font-size: 1.2rem;
+}
