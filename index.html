@@ -3,189 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola Estadual - Orgulho do Paraná</title>
+    <title>Meu Mural Escolar 🚀</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="header-top">
-            <div class="logo-placeholder">🌳</div>
-            <h1>Escola Estadual</h1>
-            <div class="flag-placeholder">🇧🇷</div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Atividades</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>📚 Meu Mural Escolar ✏️</h1>
+        <p>Prepare-se para uma semana incrível de aprendizado!</p>
     </header>
 
     <main>
-        <section class="hero">
-            <h2>Bem-vindos à Nossa Escola</h2>
-            <div class="landscape-draw">🌲 🏫 🌲</div>
+        <section class="destaque-semana">
+            <div class="card-destaque">
+                <span class="emoji">🌟</span>
+                <h3>Destaque da Semana</h3>
+                <p>Projeto de <strong>Robótica</strong>: Traga seus componentes na terça-feira!</p>
+            </div>
         </section>
 
-        <section class="content-grid">
-            <article class="card">
-                <h3>Notícias</h3>
-                <div class="image-box">📰</div>
-                <p>Confira as últimas novidades da nossa unidade escolar.</p>
-            </article>
-
-            <article class="card">
-                <h3>Eventos</h3>
-                <div class="image-box">📅</div>
-                <p>Fique por dentro do nosso calendário acadêmico.</p>
-            </article>
-        </section>
-
-        <section class="info-footer">
-            <div class="contact-info">
-                <h4>Últimas Novidades</h4>
-                <p>Contatos: (41) 0000-0000</p>
-                <p>📧 escola@email.com</p>
-            </div>
-            
-            <div class="owl-section">
-                <div class="owl-icon">🦉</div>
-                <p><strong>Educação Paraná</strong></p>
-            </div>
-
-            <div class="social-links">
-                <p>📞 0800 000 9393</p>
-                <p>🌐 www.educacao.pr.gov.br</p>
-                <p>📸 @copaeducacaopr</p>
-            </div>
+        <section class="calendario">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="hora">07:30 - 08:20</td>
+                        <td class="historia">História</td>
+                        <td class="arte">Arte</td>
+                        <td class="filosofia">Filosofia</td>
+                        <td class="portugues">Português</td>
+                        <td class="financas">Ed. Financeira</td>
+                    </tr>
+                    <tr>
+                        <td class="hora">08:20 - 09:10</td>
+                        <td class="matematica">Matemática</td>
+                        <td class="matematica">Matemática</td>
+                        <td class="portugues">Português</td>
+                        <td class="portugues">Português</td>
+                        <td class="financas">Ed. Financeira</td>
+                    </tr>
+                    <tr>
+                        <td class="hora">09:10 - 10:00</td>
+                        <td class="historia">História</td>
+                        <td class="tecnociencia">Física/Tecno.</td>
+                        <td class="ingles">Inglês</td>
+                        <td class="sociologia">Sociologia</td>
+                        <td class="portugues">Português</td>
+                    </tr>
+                    <tr class="intervalo">
+                        <td colspan="6">🍎 LANCHE & RECREIO (10:00 - 10:20)</td>
+                    </tr>
+                    <tr>
+                        <td class="hora">10:20 - 11:10</td>
+                        <td class="ed-fisica">Ed. Física</td>
+                        <td class="robotica">Robótica</td>
+                        <td class="programacao">Programação</td>
+                        <td class="matematica">Matemática</td>
+                        <td class="ingles">Inglês</td>
+                    </tr>
+                    <tr>
+                        <td class="hora">11:10 - 12:00</td>
+                        <td class="fisica">Física</td>
+                        <td class="robotica">Robótica</td>
+                        <td class="programacao">Programação</td>
+                        <td class="tecnociencia">Física/Tecno.</td>
+                        <td class="matematica">Matemática</td>
+                    </tr>
+                    <tr>
+                        <td class="hora">12:00 - 12:50</td>
+                        <td class="fisica">Física</td>
+                        <td class="sociologia">Sociologia</td>
+                        <td class="arte">Arte</td>
+                        <td class="ed-fisica">Ed. Física</td>
+                        <td class="filosofia">Filosofia</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 
     <footer>
-        <p>✨ Orgulho do Paraná! ✨</p>
+        <p>Feito com ✨ e muita dedicação!</p>
     </footer>
 
 </body>
 </html>
+
 /* Configurações Gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 body {
-    background-color: #f4f4f9;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', cursive; /* Fonte divertida */
+    background-color: #fffae6; /* Creme suave */
     color: #333;
-    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #004a8d; /* Azul clássico escolar */
-    color: white;
-    padding: 20px;
     text-align: center;
+    background-color: #ff9f43;
+    padding: 20px;
+    border-radius: 20px;
+    border: 5px dashed #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
 }
 
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-nav ul {
-    list-style: none;
-    margin-top: 15px;
-    border-top: 1px solid rgba(255,255,255,0.3);
-    padding-top: 10px;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
+header h1 {
+    margin: 0;
     color: white;
-    text-decoration: none;
+    text-shadow: 2px 2px #ee5253;
+}
+
+/* Card de Destaque */
+.destaque-semana {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card-destaque {
+    background-color: #feca57;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 4px solid #ff9f43;
+    text-align: center;
+    transform: rotate(-1deg);
+}
+
+.card-destaque h3 { margin: 5px 0; color: #d35400; }
+
+/* Tabela Mágica */
+.calendario {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 8px;
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+th {
+    background-color: #48dbfb;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
     font-weight: bold;
+    border: 2px solid rgba(0,0,0,0.05);
 }
 
-/* Banner Principal */
-.hero {
-    text-align: center;
-    padding: 40px 20px;
-    background: white;
+.hora { background-color: #f1f2f6; color: #576574; }
+
+/* Cores das Matérias */
+.historia { background-color: #ff9f43; color: white; }
+.matematica { background-color: #54a0ff; color: white; }
+.fisica { background-color: #5f27cd; color: white; }
+.ed-fisica { background-color: #10ac84; color: white; }
+.arte { background-color: #ff9ff3; color: white; }
+.tecnociencia { background-color: #00d2d3; color: white; }
+.robotica { background-color: #ff6b6b; color: white; }
+.sociologia { background-color: #c8d6e5; }
+.filosofia { background-color: #576574; color: white; }
+.portugues { background-color: #48dbfb; color: white; }
+.ingles { background-color: #feca57; }
+.programacao { background-color: #2e86de; color: white; }
+.financas { background-color: #1dd1a1; color: white; }
+
+.intervalo {
+    background-color: #ffecd2;
+    font-style: italic;
+    color: #e67e22;
 }
 
-.landscape-draw {
-    font-size: 50px;
-    margin-top: 20px;
-    border-bottom: 2px dashed #ccc;
-    padding-bottom: 20px;
-}
-
-/* Grade de Conteúdo (Notícias e Eventos) */
-.content-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-.image-box {
-    font-size: 40px;
-    margin: 15px 0;
-    background: #eee;
-    padding: 20px;
-}
-
-/* Seção Inferior e Rodapé */
-.info-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: #e9ecef;
-    padding: 30px;
-    margin-top: 40px;
-    flex-wrap: wrap;
-}
-
-.owl-section {
-    text-align: center;
-}
-
-.owl-icon {
-    font-size: 60px;
-}
-
-.social-links p, .contact-info p {
-    font-size: 0.9rem;
-    margin-bottom: 5px;
+/* Efeito de Hover */
+td:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 footer {
-    background-color: #004a8d;
-    color: white;
     text-align: center;
-    padding: 15px;
-    font-style: italic;
-    font-size: 1.2rem;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #95a5a6;
 }
